@@ -8,4 +8,4 @@ answer=[]
 for i in color:
     
 
-print(color)
+    print(color)
