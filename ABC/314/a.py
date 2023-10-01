@@ -1,0 +1,6 @@
+n=int(input())
+pi=list(str(1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679))
+answer=[]
+for i in range(n):
+    answer.insert(i, pi[i])
+print("3."+str("".join(answer)))
