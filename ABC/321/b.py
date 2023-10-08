@@ -1,4 +1,15 @@
-nx = list(int,map(input().split(" ")))
-a = list(int, map(input().split(" ")))
-scores = sum(a) - a[0] - a[nx[0]-2]
-min = nx[1] - scores
+nx = list(map(int,input().split(" ")))
+a = list(map(int, input().split(" ")))
+for i in range(101):
+    a.append(i)
+    a.sort
+    scores = sum(a) - a[0] - a[nx[0]-1]
+
+    if scores == nx[0]:
+        print(i)
+        break
+    if i ==100:
+        print(-1)
+        break
+    scores = 0
+print(scores)
