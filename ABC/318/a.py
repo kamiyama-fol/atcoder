@@ -4,8 +4,7 @@ n = input_line[1]
 p = input_line[2]
 
 for i in range(1, n+1):
-    if M + i*p <= n:
+    if m + i*p <= n:
         print(i)
-    break
-    elif i ==n:
+    if i ==n:
         print(0)
