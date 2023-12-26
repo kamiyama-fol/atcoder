@@ -12,6 +12,7 @@ while True:
 
 
     if sum(number) % 10 == 0:
+        number = "".join(str(number))
         print(number)
         break
     else:
