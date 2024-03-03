@@ -13,7 +13,7 @@ for i in range(n):
 
 line[0] = gkbv(a, -1)
 
-for i in range(1,n+1):
+#for i in range(1,n+1):
     
 
 
