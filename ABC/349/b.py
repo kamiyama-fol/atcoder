@@ -5,16 +5,12 @@ for i in s:
         list[i] = 1
     else:
         list[i] +=1
-print(list)
 flag = True
-for i in list:
-    valc = sum(v == i for v in list.values())
-    print(valc)
-
-    if i != 2 or i != 0:
+for i in range(max(list.values()) + 1):
+    count = sum(v == i for v in list.values())
+    print(count)
+    if count == 2 or count == 0:
         flag = False
-    print(flag)
-
 if flag:
     print("Yes")
 else:
