@@ -5,10 +5,16 @@ for i in s:
         list[i] = 1
     else:
         list[i] +=1
+print(list)
 flag = True
-for i in range(max(list.values())):
-    if list.sum(i) != 2 or list.sum(i) != 0:
+for i in list:
+    valc = sum(v == i for v in list.values())
+    print(valc)
+
+    if i != 2 or i != 0:
         flag = False
+    print(flag)
+
 if flag:
     print("Yes")
 else:
