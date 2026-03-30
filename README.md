@@ -1,1 +1,2 @@
-# AtCoderPractice
+# atcoder
+AtCoderの問題を解くためのリポジトリ
